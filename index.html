@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KCC Transport Systems</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  header {
+    background-color: #003366;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  nav, .right-menu {
+    display: inline-flex;  
+    align-items: center;  
+  }
+  nav a, .right-menu a {
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;  
+  }
+  .right-menu a {
+    margin-left: 15px;  
+    margin-right: 0;  
+  }
+  section {
+    background-color: white;
+    margin-top: 20px;
+    padding: 40px;
+  }
+  footer {
+    background-color: #003366; 
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  .service-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; 
+    justify-content: space-between;
+  }
+  .service-item {
+    flex: 1;
+    background-color: #f9f9f9; 
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+  }
+  .contact-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .branch-info {
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  /* 로고 이미지 */
+  #logo {
+  width: 200px; 
+  height: auto; 
+  }
+ 
+  #international-transportation-details h3 {
+    color: #073daa; 
+  }
+  
+  #Domestic-Transportation-details h3 {
+    color: #073daa; 
+  }
+  
+  #Warehousing-and-Distribution-details h3 {
+    color: #073daa; 
+  }
+  
+  #Trucking-details h3 {
+    color: #073daa; 
+  }
+  .banner {
+    text-align: center;
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    margin-bottom: 20px;
+  }
+  .banner img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
+</style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>KCC Transport Systems</h1>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="contact.html">Contacts</a>
+        <a href="about.html">About Us</a>
+      </nav>
+    </div>
+    <div class="right-menu">  <!-- 오른쪽 링크 div -->
+      <a href="http://cfs.kccusa.com" target="_blank">CFS Login</a> 
+      <a href="http://kcc.glsone.com" target="_blank">Inventory Status</a>  
+    </div>
+  </header>
+    <section id="services">
+    <h2>Services</h2>
+    <div class="service-container">
+        <div class="service-item">
+        <h3>International Transportation</h3>
+        <p>KCC provides integrated One-Stop Logistics Service including international transportation, customs clearance, warehousing, and domestic trucking via KCC branch offices and worldwide partner network.</p>
+        <!-- <p><a href="#international-transportation-details">Learn more about our Air Freight and Ocean Freight services.</a></p> -->
+        <p>Learn more about our <a href="#air-freight-details">Air Freight</a> and <a href="#ocean-freight-details">Ocean Freight</a> services.</p>
+        </div>
+        <div class="service-item">
+        <h3>Domestic Transportation</h3>
+        <p>KCC offers a wide range of services to meet customer’s specific logistical requirements. Our total logistics service platform links the entire country through an up to date domestic transportation system.</p>
+        <p><a href="#Domestic-Transportation-details">Learn more about Trucking services.</a></p>
+        </div>
+        <div class="service-item">
+        <h3>Warehousing & Distribution</h3>
+        <p>KCC provides cost-effective, customized solutions to handle all of customer’s warehousing and distribution needs. With logistics expertise acquired and accumulated for over 25 years, we offer expedited order fulfillment and value added distribution to our warehouse customers.</p>
+        <p><a href="#Warehousing-and-Distribution-details">Learn more about Warehousing services.</a></p>
+        </div>
+        <div class="service-item">
+        <h3>Trucking</h3>
+        <p>At KCC, we understand the critical role trucking services play in ensuring seamless end-to-end freight forwarding solutions. Our trucking services are designed to meet the diverse needs of our customers while ensuring the safe, timely, and cost-effective delivery of your cargo.</p>
+        <p><a href="#Trucking-details">Learn more about Warehousing services.</a></p>
+        </div>
+    </div>
+    </section>
+
+    <section id="service-details">
+        <h2>Service Details</h2>
+        
+        <div id="international-transportation-details">
+            <h3>International Transportation</h3>
+            <div id="air-freight-details">
+              <h4>Air Freight</h4>
+              <p>KCC provides integrated One-Stop Logistics Service including international transportation, customs clearance, warehousing, and domestic trucking via KCC branch offices and worldwide partner network. With KCC’s state-of-the-art Logistics Information Systems, customers have full visibility of their cargo status from origin to destination. KCC is a member of IATA (#01-19440/0012) and offers complete air forwarding and consolidation services.</p>
+              <ul>
+                <li>Pick up and delivery</li>
+                <li>Packing services</li>
+                <li>Customs clearance</li>
+                <li>Letter of Credit</li>
+                <li>Cargo insurance</li>
+                <li>Re-forwarding cargo (Sea & Air, Air & Air)</li>
+                <li>Door to door arrangement</li>
+                <li>Cargo movement monitoring via internet</li>
+              </ul>
+              <h5>Main Commodities</h5>
+              <ul>
+                <li>Garments, Electronic Goods, Machinery / Equipment</li>
+                <li>Oversize cargo</li>
+              </ul>
+              <h5>Main Carriers</h5>
+              <ul>
+                <li>ASIA: Korean Air, Asiana Air, China Air, UPS, Northwest</li>
+                <li>C & S Americas: UPS, MAS Air, Varig Air, MAS Air, Lan Chile, Aero Mexpress</li>
+                <li>EUROPE & OTHERS: Air France, Lufthansa, KLM, Cargolux, Alitalia</li>
+              </ul>
+            </div>
+            
+            <div id="ocean-freight-details">
+              <h4>Ocean Freight</h4>
+              <p>We provide our customers with services of the highest quality through a one-stop service that combines diverse ocean transportation with state-of-the-art logistics technologies. The annual service contracts with HANJIN, HYUNDAI, MAERSK, SEA-LAND, APL, OOCL, CSCL is competitive and reliable.</p>
+              <ul>
+                <li>Pick up and delivery</li>
+                <li>Packing & crating</li>
+                <li>Letter of credit</li>
+                <li>Export license</li>
+                <li>AES (Automated Export Service)</li>
+                <li>Regular consolidation to Far East ports</li>
+                <li>Oversize and project cargo expertise</li>
+                <li>Cargo insurance</li>
+                <li>Cargo movement monitoring through the internet</li>
+              </ul>
+              <h5>Containerized Cargo</h5>
+              <ul>
+                <li>Annual service contracts with Hyundai, Maersk Sea-Land, APL, OOCL, CSCL, Sinotrans, NYK, HPL for competitive rates and reliable service</li>
+              </ul>
+              <h5>Major Commodities</h5>
+              <ul>
+                <li>Eastbound: Computer Parts, Electronics, Goods, Textile, Garment, Toy, etc.</li>
+                <li>Westbound: Building material, Computer Parts, Hay, Resin, Beverages, etc.</li>
+              </ul>
+            </div>
+          </div>
+        
+        <div id="Domestic-Transportation-details">
+        <h3>Domestic Transportation</h3>
+        <p>
+            Our domestic transportation services link the entire country, providing reliable and timely delivery to meet your specific logistical requirements. Our platform includes:
+        </p>
+        <ul>
+            <li>Full truckload services</li>
+            <li>Less than truckload (LTL) services</li>
+            <li>Intermodal and drayage services</li>
+            <li>Expedited and guaranteed services</li>
+        </ul>
+        </div>
+        
+        <div id="Warehousing-and-Distribution-details">
+        <h3>Warehousing & Distribution</h3>
+        <p>
+            With over 35 years of logistics expertise, we provide cost-effective, customized warehousing and distribution solutions. Our services include:
+        </p>
+        <ul>
+            <li>Storage</li>
+            <li>Inventory control</li>
+            <li>Consolidation</li>
+            <li>Distribution</li>
+            <li>Value-added services like labeling, marking, pick & pack, and palletizing</li>
+            <li>Real-time web access to monitor inventory</li>
+        </ul>
+        </div>
+        
+        <div id="Trucking-details">
+        <h3>Trucking</h3>
+        <p>
+            Our trucking services are designed to provide competitive rates and Just In Time delivery, ensuring seamless end-to-end freight forwarding solutions. Our offerings include:
+        </p>
+        <ul>
+            <li>Bonded carrier services</li>
+            <li>In-Bond cargo transfer & documentation</li>
+            <li>Ocean & airfreight pick up and delivery</li>
+            <li>Door to Door arrangement of full truck load</li>
+            <li>Interstate and intrastate</li>
+            <li>Flatbed and refrigerated trailer service</li>
+        </ul>
+        </div>
+    </section>
+    <section class="banner">
+      <img src="image/banner.png" alt="KCC Banner">
+    </section>
+    <footer>
+      © 2023 KCC Transport Systems
+    </footer>
+    
+    </body>
+    </html>
